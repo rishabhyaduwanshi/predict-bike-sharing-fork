@@ -31,10 +31,13 @@ i would have spent more time analysing the datetime column seperatly and humdity
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
 ![model_train_score.png](img/model_train_score.png)
+<img src="img/model_train_score.png" alt="model_train_score.png" width="500"/>
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
 ![model_test_score.png](img/model_test_score.png)
+<img src="img/model_test_score.png" alt="model_test_score.png" width="500"/>
+
 
 ## Summary
 The goal to use the dateTime ,weather condition,effects of subscription,working days to find the need of bikes makes sense.So to findout which modle works best on this dataset we used autogluon.running the model without affecting hyperparamters much initially helps in understanding the current base we hold.Using the TabularPredictor allowed us to went through most possibilities.
