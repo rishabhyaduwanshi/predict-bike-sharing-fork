@@ -34,7 +34,7 @@ i would have spent more time analysing the datetime column seperatly and humdity
 <!-- ![model_train_score.png](img/model_train_score.png) -->
 
 
-<img src="https://github.com/rishabhyaduwanshi/predict-bike-sharing-fork/blob/main/project/img/model_train_score.png" alt="model_train_score.png"  width="500>
+<img src="https://github.com/rishabhyaduwanshi/predict-bike-sharing-fork/blob/main/project/img/model_train_score.png" alt="model_train_score.png"  width="500/>
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
