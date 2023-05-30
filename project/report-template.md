@@ -31,18 +31,18 @@ i would have spent more time analysing the datetime column seperatly and humdity
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
 
-![model_train_score.png](img/model_train_score.png)
+<!-- ![model_train_score.png](img/model_train_score.png) -->
 
 
-<!-- <img src="img/model_train_score.png" alt="model_train_score.png"/> -->
+<img src="https://github.com/rishabhyaduwanshi/predict-bike-sharing-fork/blob/main/project/img/model_train_score.png" alt="model_train_score.png"/>
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
 
-![model_test_score.png](https://github.com/rishabhyaduwanshi/predict-bike-sharing-fork/blob/main/project/img/model_test_score.png)
+<!-- ![model_test_score.png](https://github.com/rishabhyaduwanshi/predict-bike-sharing-fork/blob/main/project/img/model_test_score.png) -->
 
 
-<!-- <img src="img/model_test_score.png" alt="model_test_score.png" width="500"/> -->
+<img src="https://github.com/rishabhyaduwanshi/predict-bike-sharing-fork/blob/main/project/img/model_test_score.png" alt="model_test_score.png" width="500"/>
 
 
 ## Summary
