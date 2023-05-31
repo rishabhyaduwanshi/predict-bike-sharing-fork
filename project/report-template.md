@@ -6,17 +6,17 @@
 when we tried to submit my predictions i found that there were 15 negative values in for the count field which means that the model was predicting negative number of bike count.which is impossible hence we turned those values into 0.
 
 ### What was the top ranked model that performed?
-the add_features_test_eval model is the highest performing model with -30.38
+the hyper paramter tuned model is the highest performing model with a score of 0.51790
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
 the exploratorty anaylisis finds the data distribution for each column we plotted histogram for each column.we chose year month day and hour as the extra feature.as datetime column is in DateTime Format it was easy to just extrate these from it using df['datetime'].dt.__ where __ can be hour,year,day,month etc .
 
 ### How much better did your model preform after adding additional features and why do you think that is?
-The model performed 22.75% better.This is because of the fact that additional featuers added were year,month,day and hour and we can see that hour and day play a cruicial role in exploratory analysis some hours are following same trends and so were days.Another reason the model performed better was specifying that season and weather are categorical data rather then a numeric value.
+The model performed 71.52% better.This is because of the fact that additional featuers added were year,month,day and hour and we can see that hour and day play a cruicial role in exploratory analysis some hours are following same trends and so were days.Another reason the model performed better was specifying that season and weather are categorical data rather then a numeric value.
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
-The model performed worse after trying different paramters
+The model performed 71.52% better after trying different paramters
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
 i would have spent more time analysing the datetime column seperatly and humdity temperature and windspeed seperatly to understand there effect on bike count.
@@ -47,4 +47,4 @@ i would have spent more time analysing the datetime column seperatly and humdity
 
 ## Summary
 The goal to use the dateTime ,weather condition,effects of subscription,working days to find the need of bikes makes sense.So to findout which modle works best on this dataset we used autogluon.running the model without affecting hyperparamters much initially helps in understanding the current base we hold.Using the TabularPredictor allowed us to went through most possibilities.
-after knowing the performance we added new features in the table and specified autogluon that season and weather are categorical value,after that we changed search strategy to bayes optimizer but adding additional features provided highest score of -38.3845.
+after knowing the performance we added new features in the table and specified autogluon that season and weather are categorical value and after that we changed search strategy to bayes optimizer but adding additional features provided highest score of 0.51790.
